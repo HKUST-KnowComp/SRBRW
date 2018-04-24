@@ -1,0 +1,9 @@
+.DS_Store
+.vscode/*
+*.pyc
+data/*
+embs/*
+liblinear/*
+sentiment/models/*
+sentiment/format_data/*
+sentiment/results/*
