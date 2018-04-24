@@ -138,7 +138,10 @@ bash run.sh
 
 ### Pretrained embeddings and models
 
-You can download pretrained embeddings and models in [release](https://github.com/HKUST-KnowComp/SRBRW/releases). Put embeddings in the `embs` dictionary and models in `attention/models`.
+You can download pretrained embeddings and models in [release](https://github.com/HKUST-KnowComp/SRBRW/releases). 
+* Put `embs/*` in the `embs/` directory.
+* Put `sentiment_models/*` in the `sentiment/models/` directory.
+* Put `attention_models/*` in the `attention/models/` directory.
 
 ### Directory Structure
 
