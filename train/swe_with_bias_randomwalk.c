@@ -510,7 +510,7 @@ void PreprocessTransitionProbs() {
 }
 
 real BiasCompute(real average, real weight, long long user) {
-    return average * ((1 + weight) * average_friend_count / (friend_size[user] + weight * average_friend_count));
+    return average * ((1 + 1 + weight) * average_friend_count / (friend_size[user] + (1 + weight) * average_friend_count));
 }
 
 //create user_vocabulary from user_file.txt
