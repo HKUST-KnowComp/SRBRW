@@ -179,13 +179,19 @@ You can download pretrained embeddings and models in [release](https://github.co
 
 If you use this code, then please cite our IJCAI 2018 paper:
 ```
-@inproceedings{zeng2018biased,
-  title={Biased Random Walk based Social Regularization for Word Embeddings},
-  author={Zeng, Ziqian and Liu, Xin and Song, Yangqiu},
-  booktitle={IJCAI},
-  pages={XX-YY},
-  year={2018},
+@inproceedings{ijcai2018-634,
+  title     = {Biased Random Walk based Social Regularization for Word Embeddings},
+  author    = {Ziqian Zeng and Xin Liu and Yangqiu Song},
+  booktitle = {Proceedings of the Twenty-Seventh International Joint Conference on
+               Artificial Intelligence, {IJCAI-18}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},             
+  pages     = {4560--4566},
+  year      = {2018},
+  month     = {7},
+  doi       = {10.24963/ijcai.2018/634},
+  url       = {https://doi.org/10.24963/ijcai.2018/634},
 }
+
 ```
 
 ### License
